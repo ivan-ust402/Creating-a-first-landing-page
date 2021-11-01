@@ -1,0 +1,12 @@
+body {
+    color: #201b2d;
+    font-size: 15px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
