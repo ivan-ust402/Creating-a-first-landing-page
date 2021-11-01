@@ -2,6 +2,8 @@ body {
     color: #201b2d;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -11,4 +13,71 @@ div, p, input, button, form, span, a, ul, li {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(71,62,95,1);
+    background: -moz-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,62,95,1)), color-stop(100%, rgba(43,34,64,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
+    background: linear-gradient(135deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2b2240', GradientType=1 );
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 225px;
+}
+
+.wrapper {
+    display: flex;
+    padding-top: 177px;
+    justify-content: space-between;
+}
+
+.offer {
+    width: 490px;
+    margin-top: 176px;
+}
+
+.title span {
+    color: #48ed8e;
+}
+
+.intro {
+    margin-top: 30px;
+    margin-bottom: 37px;
+    width: 380px;
+}
+
+.btn {
+    background: #ed9619;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    border-radius: 100px;
+    width: 205px;
+    padding: 19px 0;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #d9860e;
+    transition: all 0.5s ease;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.desktop {
+    margin-top: 72px;
 }
