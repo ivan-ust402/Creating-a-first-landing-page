@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
+p {
+    line-height: 1.65em;
+}
+
 .container{
     width: 1170px;
     margin: 0 auto;
@@ -31,21 +35,23 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(135deg, rgba(71,62,95,1) 0%, rgba(43,34,64,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', endColorstr='#2b2240', GradientType=1 );
     padding-top: 100px;
-    color: #fff;
     padding-bottom: 225px;
+    color: #fff;
 }
 
 .wrapper {
     display: flex;
-    padding-top: 177px;
     justify-content: space-between;
 }
 
 .offer {
-    width: 490px;
     margin-top: 176px;
+    width: 490px;
 }
 
+.title {
+    font-size: 36px;
+}
 .title span {
     color: #48ed8e;
 }
@@ -66,18 +72,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 19px 0;
     text-align: center;
     text-decoration: none;
-
+    transition: all 0.5s ease;
 }
 
 .btn:hover {
     background: #d9860e;
-    transition: all 0.5s ease;
-}
-
-p {
-    line-height: 1.65em;
 }
 
 .desktop {
-    margin-top: 72px;
+    margin-top: 68px;
 }
