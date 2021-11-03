@@ -148,3 +148,14 @@ p {
     border: 0;
     cursor: pointer;
 }
+
+.footer {
+    padding: 33px 0;
+    background: #201b2d;
+}
+
+.credits {
+    color: #d4cee3;
+    font-size: 14px;
+    margin: 0;
+}
