@@ -120,3 +120,31 @@ p {
 .skill-change {
     background: url('../img/icon3.jpeg') no-repeat left top;
 }
+
+.mail {
+ background-color:  #efecf4;
+ padding-top: 176px;
+ padding-bottom: 195px;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.input {
+    width: 474px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;;
+    border: 1px solid #bfb8d1;
+    border-radius: 100px;
+    height: 57px;
+    padding-left: 36px;
+    
+}
+
+.btn-form {
+    display: inline;
+    margin-left: 11px;
+    border: 0;
+    cursor: pointer;
+}
