@@ -82,3 +82,41 @@ p {
 .desktop {
     margin-top: 68px;
 }
+
+.learn {
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.skill {
+    width: 350px;
+    background: url('../img/icon1.jpeg') no-repeat left top;
+    padding-left: 100px;
+}
+
+.skill-title {
+    font-size: 18px;
+}
+
+.skill-text {
+    margin-top: 7px;
+}
+
+.skill-free {
+    width: 380px;
+    background: url('../img/icon2.jpeg') no-repeat left top;
+}
+
+.skill-change {
+    background: url('../img/icon3.jpeg') no-repeat left top;
+}
