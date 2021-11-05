@@ -4,6 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
