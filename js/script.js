@@ -16,70 +16,48 @@ btn.onclick = function () {
 }
 
 $(function() {
-	// $(window).scroll(function() {
-	// 	$('#logo').each(function() {
-	// 		var imagePos = $(this).offset().top
+	$(window).scroll(function() {
+		$('#learn .section-title').each(function() {
+			var imagePos = $(this).offset().top
 
-	// 		var topOfWindow = $(window).scrollTop()
-	// 		if (imagePos < topOfWindow+650) {
-	// 			$(this).addClass('animate__animated animate__fadeInDown')
-	// 		}
-	// 	})
-	// })
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 450) {  //по дефолту было 650
+				$(this).addClass('animate__fadeInDown')
+			}
+		})
+	})
 
-	// $(window).scroll(function() {
-	// 	$('.getFreeTime').each(function() {
-	// 		var imagePos = $(this).offset().top
+    $(window).scroll(function() {
+		$('.skill-knowledge').each(function() {
+			var imagePos = $(this).offset().top
 
-	// 		var topOfWindow = $(window).scrollTop()
-	// 		if (imagePos < topOfWindow+650) {
-	// 			$(this).addClass('fadeInLeft')
-	// 		}
-	// 	})
-	// })
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 450) {
+				$(this).addClass('animate__fadeInLeft')
+			}
+		})
+	})
 
-	// $(window).scroll(function() {
-	// 	$('.getTrip').each(function() {
-	// 		var imagePos = $(this).offset().top
+    $(window).scroll(function() {
+		$('.skill-free').each(function() {
+			var imagePos = $(this).offset().top
 
-	// 		var topOfWindow = $(window).scrollTop()
-	// 		if (imagePos < topOfWindow+650) {
-	// 			$(this).addClass('fadeInUp')
-	// 		}
-	// 	})
-	// })
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 450) {
+				$(this).addClass('animate__fadeInUp')
+			}
+		})
+	})
 
-	// $(window).scroll(function() {
-	// 	$('.getWorth').each(function() {
-	// 		var imagePos = $(this).offset().top
+    $(window).scroll(function() {
+		$('.skill-change').each(function() {
+			var imagePos = $(this).offset().top
 
-	// 		var topOfWindow = $(window).scrollTop()
-	// 		if (imagePos < topOfWindow+650) {
-	// 			$(this).addClass('fadeInRight')
-	// 		}
-	// 	})
-	// })
-
-	// $(window).scroll(function() {
-	// 	$('#ticketToTheFuture .section-title').each(function() {
-	// 		var imagePos = $(this).offset().top
-
-	// 		var topOfWindow = $(window).scrollTop()
-	// 		if (imagePos < topOfWindow+650) {
-	// 			$(this).addClass('fadeInDown')
-	// 		}
-	// 	})
-	// })
-
-	// $(window).scroll(function() {
-	// 	$('.form').each(function() {
-	// 		var imagePos = $(this).offset().top
-
-	// 		var topOfWindow = $(window).scrollTop()
-	// 		if (imagePos < topOfWindow+650) {
-	// 			$(this).addClass('fadeInDown')
-	// 		}
-	// 	})
-	// })
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 450) {
+				$(this).addClass('animate__fadeInRight')
+			}
+		})
+	})
 
 })

@@ -163,8 +163,13 @@ p {
 .green {
     background: #06af15;
 }
+
 .green:hover {
     background: #058f11;
+}
+
+.animate__animated {
+    opacity: 0;
 }
 
 /* Responsive */
