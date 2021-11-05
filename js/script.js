@@ -1,5 +1,19 @@
 var btn = document.getElementById('btn');
+var btnForm = document.getElementById('btn-form');
 var counterVal = 0;
+
+
+function myReadData() {
+    var email = document.getElementById('form').elements[0].value;
+    // document.getElementById('demo').innerHTML = email;
+    alert(email);
+}
+
+
+
+btnForm.onclick = function () {
+    myReadData();
+}
 
 btn.onclick = function () {
     ++counterVal;
@@ -12,7 +26,6 @@ btn.onclick = function () {
     if (counterVal == 2) {
         document.getElementById('btn').setAttribute("href","https://wayup.in/")
     }
-    
 }
 
 $(function() {
