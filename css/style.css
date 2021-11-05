@@ -160,6 +160,13 @@ p {
     margin: 0;
 }
 
+.green {
+    background: #06af15;
+}
+.green:hover {
+    background: #058f11;
+}
+
 /* Responsive */
 
 /* 992px - 1200px */
