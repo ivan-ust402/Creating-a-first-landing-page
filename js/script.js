@@ -78,7 +78,7 @@ $(function() {
 			var imagePos = $(this).offset().top
 
 			var topOfWindow = $(window).scrollTop()
-			if (imagePos < topOfWindow + 650) {
+			if (imagePos < topOfWindow + 750) {
 				$(this).addClass('animate__fadeInDown')
 			}
 		})
@@ -89,7 +89,7 @@ $(function() {
 			var imagePos = $(this).offset().top
 
 			var topOfWindow = $(window).scrollTop()
-			if (imagePos < topOfWindow + 650) {
+			if (imagePos < topOfWindow + 850) {
 				$(this).addClass('animate__fadeInLeft')
 			}
 		})
@@ -100,21 +100,9 @@ $(function() {
 			var imagePos = $(this).offset().top
 
 			var topOfWindow = $(window).scrollTop()
-			if (imagePos < topOfWindow + 650) {
+			if (imagePos < topOfWindow + 850) {
 				$(this).addClass('animate__fadeInRight')
 			}
 		})
 	})
-
-    $(window).scroll(function() {
-		$('.credits').each(function() {
-			var imagePos = $(this).offset().top
-
-			var topOfWindow = $(window).scrollTop()
-			if (imagePos < topOfWindow + 850) {
-				$(this).addClass('animate__fadeIn')
-			}
-		})
-	})
-
 })
