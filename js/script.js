@@ -6,12 +6,17 @@ var counterVal = 0;
 function myReadData() {
     var email = document.getElementById('form').elements[0].value;
     // document.getElementById('demo').innerHTML = email;
-    alert(email);
+    if (email == "") {
+        alert ("Вы не ввели свой email. Пожалуйста, повторите попытку!")
+    } else {
+        alert(`Спасибо за обратную связь! Ваш email ( ${email} ) важен для меня!`);
+    }
 }
 
 
 
 btnForm.onclick = function () {
+
     myReadData();
 }
 
